@@ -1,0 +1,251 @@
+
+#home{
+	background:url('../image/pigi.jpg') no-repeat center center fixed;
+	display:table;
+	height:100%;
+	position:relative;
+	width:100%;
+	background-size:cover;
+}
+.landing-text{
+	font-family:vintage;
+	width:50%;
+	margin-left:27%;
+	margin-bottom:10%;
+}
+.landing-text h1{
+	color:#23415C;
+}
+.landing-text h2{
+	color:#23415C;
+}
+.landing-text h4{
+	color:#23415C;
+}
+.landing-text h2:hover{
+	color:#23415C;
+}
+.landing-text h1:hover{
+	color:#FF6347;
+}
+.landing-text h4:hover{
+	color:#FF6347;
+}
+.landing-text h1{
+	margin-top:180px;
+	margin-left:200px;
+}
+.landing-text h4{
+	margin-left:200px;
+}
+.landing-text h2{
+	margin-left:84px;
+}
+.landing-text a{
+	margin-left:120px;
+	margin-top:16px;
+	background-color:#23415C;
+	color:white;
+}
+.landing-text a:hover{
+background-color:#FF6347;
+}
+.img
+{
+	width:100%;
+	height:auto;
+}
+.container1 {
+	background-color:#23415C;
+	font-family: ACLONICA REGULAR;
+	color:white;
+	font-size:20px;
+	
+}
+.container1 h3{
+	color:white;
+	padding-top:10px
+}
+.container1 a:hover{
+	background-color:#FF6347;
+}
+
+.container2 {
+	background-color:white;
+	font-family: ACLONICA REGULAR;
+	font-size:20px;
+	
+}
+.container2 h3{
+	padding-top:10px
+}
+.container2 a:hover{
+	background-color:#FF6347;
+}
+
+#feedback{
+	background:url('../image/feedback.jpg') no-repeat center center ;
+	display:table;
+	height:50%;
+	position:relative;
+	width:100%;
+	background-size:cover;
+}
+.feedback-text{
+	font-family:vintage;
+}
+
+.feedback-text h1{
+	color:red;
+}
+.feedback-text p{
+	color:red;
+}
+.feedback-text h1:hover{
+	color:#23415C;
+}
+.feedback-text p:hover{
+	color:#23415C;
+}
+.feedback-text h1{
+	margin-top:60px;
+	margin-left:200px;
+}
+.feedback-text p{
+	margin-left:200px;
+}
+
+.feedback-text a{
+	margin-left:200px;
+	margin-top:10px;
+	background-color:#23415C;
+	color:white;
+}
+.feedback-text a:hover{
+background-color:white;
+color:black;
+}
+
+
+footer{
+	width:100%;
+	background-color:#23415C;
+	padding:5% 5% 10% 5%;
+	color:#FFF;
+}
+.widget-title1{
+	list-style:none;
+}
+.widget-title1 li a:hover{
+	color:white;
+}
+.fa:hover{
+	color:#D5D5D5;
+	text-decoration:none;
+}
+.icon{
+	width:400px;
+	padding:50px;
+}
+.widget-title{
+	font-family:vintage;
+}
+.font-cel{
+	font-family:vintage;
+	font-size:30px;
+}
+.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+.footer-copyright nav ul li a{	color: #969696;}
+.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+@media(max-width:768px){
+	.ladding-text h1{
+	font-size:300%;}
+	.fa{
+	font-size:20px;
+	padding:10px;}
+	.icon{
+	padding-top:5%;
+	max-width:100px;
+	}
+}
+
+
+
+
+/* login style*/
+
+.box{
+	position:absolute;
+	top:75%;
+    margin-left:920px;
+    transform:translate(-50%,-70%);
+    background:rgba(0,0,0,.5);
+    box-sizing:border-box;
+    box-shadow:0 15px 25px rgba(0,0,0,.3);
+    border-radius:10px;
+    width:400px;
+    padding:40px;
+}
+
+.box h2
+{
+	margin:0 0 30px;
+	padding: 0;
+	color:#FFF;
+	text-align:center;
+}
+.box .inputBox
+{
+	position:relative;
+}
+.box .inputBox input{
+	width:100%;
+	padding:10px 0;
+	font-size:18px;
+	color:#FFF;
+	letter-spacing:1px;
+	margin-bottom:30px;
+	border:none;
+	outline:none;
+	background:transparent;
+	border-bottom:1px solid #FFF;
+}
+.box .inputBox label{
+	position:absolute;
+	top:0;
+	left:0;
+	padding:10px 0;
+	font-size:16px;
+	color:#fff;
+	pointer-events:none;
+	transition:.5%;
+}
+.box .inputBox input:hover ~ label, 
+.box .inputBox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 14px;
+
+}
+.box .input[type="submit"]{
+	background:transparent;
+	border:none;
+	outline:none;
+	color:#FFF;
+	background:#03a9f4;
+	padding:10px 20px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+
+
+

@@ -1,0 +1,74 @@
+
+/*header style*/
+.account{
+	background:url(image/bulb.jpg) no-repeat center center fixed;
+	display:table;
+	height:100%;
+	position:relative;
+	width:100%;
+	background-size:cover;
+}
+/*header end*/
+
+/*main area*/
+.account{
+	margin-top: 75px;
+}
+.required:after {
+    content: " *";
+    color: red;
+}
+
+
+
+
+
+
+/*footer style*/
+footer{
+	width:100%;
+	background-color:#23415C;
+	padding:5% 5% 10% 5%;
+	color:#FFF;
+}
+.widget-title1{
+	list-style:none;
+}
+.widget-title1 li a:hover{
+	color:white;
+}
+.fa:hover{
+	color:#D5D5D5;
+	text-decoration:none;
+}
+.icon{
+	width:400px;
+	padding:50px;
+}
+.widget-title{
+	font-family:vintage;
+}
+.font-cel{
+	font-family:vintage;
+	font-size:30px;
+}
+.footer-copyright {	background: #222;	padding: 5px 0;}
+.footer-copyright .logo {    display: inherit;}
+.footer-copyright nav {    float: right;    margin-top: 5px;}
+.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+.footer-copyright nav ul li a{	color: #969696;}
+.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+@media(max-width:768px){
+	.ladding-text h1{
+	font-size:300%;}
+	.fa{
+	font-size:20px;
+	padding:10px;}
+	.icon{
+	padding-top:5%;
+	max-width:100px;
+	}
+}
